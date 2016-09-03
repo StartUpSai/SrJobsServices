@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SrJobs Service</title>
+    <!-- Define Charset -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="Vella - Responsive HTML5 Template">
+    <meta name="author" content="ZoOm Arts">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/theme/images/logo.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/theme/images/logo.png">
+
+    <link rel="stylesheet" href="~/theme/css/fontello.css">
+    <link rel="stylesheet" href="~/theme/css/animation.css">
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="~/theme/css/bootstrap.css" type="text/css" media="screen">
+
+    <!-- Revolution Banner CSS -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/settings.css" media="screen" />
+
+    <!-- Vella CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/style.css" media="screen">
+
+    <!-- Responsive CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/responsive.css" media="screen">
+
+    <!-- Css3 Transitions Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/animate.css" media="screen">
+
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/colors/blue.css" title="blue" media="screen" />
+
+    <!-- Fontello Icons CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/fontello.css" media="screen">
+    <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+
+    <script type="text/javascript" src="~/theme/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/carousels.js"></script>
+    <link rel="shortcut icon" href="https://designshack.net/favicon.ico">
+    <link rel="icon" href="https://designshack.net/favicon.ico">
+    <!-- Vella JS  -->
+    <script type="text/javascript" src="~/theme/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="~/theme/js/modernizrr.js"></script>
+    <script type="text/javascript" src="~/theme/js/bootstrap.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="~/theme/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/theme/js/count-to.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/script.js"></script>
+
+
+</head>
+<body>
+    <div id="container">
+
+        <!-- Start Header -->
+        <!-- Start Top Bar -->
+        <!-- End Top Bar -->
+        <div class="top-bar" style="background-color:rgb(24, 124, 139);color:white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Start Contact Info -->
+                        <ul class="contact-details">
+                            <li><a href="#" style="color:white"><i class="icon-mobile-2"></i> +12 345 678 000</a></li>
+                            <li><a href="#" style="color:white"><i class="icon-mail-2"></i> info@yourcompany.com</a></li>
+                        </ul>
+                        <!-- End Contact Info -->
+                    </div>
+                    <div class="col-md-3">
+                        <!-- Start Contact Info -->
+                        <ul class="contact-details">
+
+                            <li><a href="#" style="color:white"><i class="icon-mail-2"></i> Staffing and Recruitment Company </a> </li>
+
+                        </ul>
+                        <!-- End Contact Info -->
+                    </div>
+
+                    <div class="col-md-5">
+                        <!-- Start Social Links -->
+
+
+
+
+                        <ul class="social-list">
+
+                            @if (Session["UserId"] != null)
+                            {
+                                <li style="margin-top:2%">
+                                    <h3 style="color:white;font-size:14px">
+                                        <i class="icon-user-1"></i>
+                                        (@Session["UserName"])&nbsp;&nbsp;
+                                    </h3>
+                                </li>
+                            }
+                            @*<li><span class="alert alert-success" style="cursor:pointer;font-weight:700;padding:12px;background-color:#0099cc;color:white"><i class="icon-user-1"></i>&nbsp;<a href="@Url.Action("Login","Home")" style="color:white">Sign Up</a></span></li>&nbsp;
+                            <li><span class="alert alert-success" style="cursor:pointer;font-weight:700;padding:12px;background-color:#0099cc;color:white"><i class="icon-login"></i>&nbsp;<a href="@Url.Action("Login","Home")" style="color:white">Sign in</a></span></li>*@
+                            <li>
+                                <a class="facebook sh-tooltip" data-placement="bottom" title="Facebook" href="#"><i style="color: white; background: #3B59A8;" class="icon-facebook-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="twitter sh-tooltip" data-placement="bottom" title="Twitter" href="#"><i style="background:#4099FF;color:white" class="icon-twitter-2"></i></a>
+                            </li>
+                            <li>
+                                <a class="google sh-tooltip" data-placement="bottom" title="Google Plus" href="#"><i style="background:#dd4b39;color:white" class="icon-gplus"></i></a>
+                            </li>
+
+                            <li>
+                                <a class="linkdin sh-tooltip" data-placement="bottom" title="Linkedin" href="#"><i style="background:#0077B5;color:white" class="icon-linkedin"></i></a>
+                            </li>
+
+                            <li>
+                                <a class="instgram sh-tooltip" data-placement="bottom" title="Instagram" href="#"><i style="background:#4E433C;color:white" class="icon-instagramm"></i></a>
+                            </li>
+
+                        </ul>
+                        <!-- End Social Links -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Start Header ( Logo & Naviagtion ) -->
+        <div class="navbar navbar-default navbar-top" style="border:1px solid #777777;">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- Stat Toggle Nav Link For Mobiles -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <i class="icon-menu-1"></i>
+                    </button>
+                    <!-- End Toggle Nav Link For Mobiles -->
+                    <a class="" href="index" style="width:100px"><img alt="" src="~/theme/images/logo.png" style="max-width:61% !important"></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <!-- Stat Search -->
+                    <!-- End Search -->
+                    <!-- Start Navigation List -->
+                    @if (Session["Userid"] == null)
+                    {
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a style="font-weight:400" href="@Url.Action("Index","Index")"><i class="icon-home-3"></i>Home</a>
+
+                            </li>
+                            <li>
+                                <a class="active" href="@Url.Action("About","Home")"><i class="icon-vcard-1"></i>ABOUT Us</a>
+
+                            </li>
+
+                            <li>
+                                <a href="@Url.Action("Service","Home")"><i class="icon-tag-4"></i>SERVICES</a>
+
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Industries","Home")"><i class="icon-shop"></i>INDUSTRIES</a>
+
+                            </li>
+                            <li><a href="@Url.Action("Openings","Index")"><i class="icon-info-3"></i>OPENINGS</a></li>
+                            <li><a href="@Url.Action("Clients","Home")"><i class="icon-user"></i>CLIENTS</a></li>
+                            @*<li><a href="contact.html">TSETIMONIALS</a></li>*@
+                            <li><a href="@Url.Action("Contact","Home")"><i class="icon-phone-2"></i>CONTACT US</a></li>
+                            <li><a href="@Url.Action("Login","Index")"><i class="icon-cog-4"></i>Log In/Sign Up</a></li>
+                        </ul>
+                    }
+                    else
+                    {
+                        if (Session["userid"] != null)
+                        {
+                            <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <a style="font-weight:400" href="@Url.Action("Dashboard","Home")"><i class="icon-home-3"></i>Dashboard</a>
+
+                                </li>
+                                <li>
+                                    <a class="active" href="@Url.Action("About","Home")"><i class="icon-vcard-1"></i>ABOUT Us</a>
+
+                                </li>
+
+                                <li>
+                                    <a href="@Url.Action("Service","Home")"><i class="icon-tag-4"></i>SERVICES</a>
+
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("Industries","Home")"><i class="icon-shop"></i>INDUSTRIES</a>
+
+                                </li>
+                                <li><a href="@Url.Action("user","Home")"><i class="icon-info-3"></i>Users</a></li>
+                                <li><a href="@Url.Action("Clients","Home")"><i class="icon-user"></i>CLIENTS</a></li>
+                                @*<li><a href="contact.html">TSETIMONIALS</a></li>*@
+                                <li><a href="@Url.Action("Contact","Home")"><i class="icon-phone-2"></i>CONTACT US</a></li>
+                                <li>
+                                    <a href="@Url.Action("UserProfile","Home")"><i class="icon-cog-4"></i>Profile<i class="icon-angle-down"></i></a>
+                                    <ul class="dropdown" style="border:1px solid rgb(24, 124, 139)">
+                                        <li><a href="about.html">Profile</a></li>
+                                        <li><a href="services.html">Upload Resume</a></li>
+                                        <li><a href="@Url.Action("Contact","Home")">Contact Us</a></li>
+                                        <li><a href="@Url.Action("Logout","Index")">LogOut</a></li>
+                                     
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        }
+                    }
+                    
+                    <!-- End Navigation List -->
+
+                </div>
+
+            </div>
+        </div>
+        <!-- End Header ( Logo & Naviagtion ) -->
+
+
+        <div class="clearfix" style="display:block !important"></div>
+        <!-- End Header -->
+        
+        <!-- Start Home Slider -->
+        <div class="page-banner" style="padding:22px 0; background: url(~/theme/images/slide-02-bg.jpg) center #f9f9f9;border:1px solid lightgrey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 id="text">SrJobs Services<span class="accent-color">&nbsp;About Us</span></h3>
+                        <h6><span style="color:white">We Are Professionals</span>&nbsp;Search Job According to Your Qualification & Experinces</h6>
+                    </div>
+                    <div class="col-md-6">
+
+                        <button class="btn btn-success" style="background-color:#00afd1;border:1px solid #00afd1;float:right"
+                                id="basicSuccessWidth" type="submit">
+                            Upload Resume &nbsp;<i class="icon-upload-cloud-3"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content" class="full-sections">
+
+            <div class="container">
+
+                <!-- Start Services Icons -->
+                <!-- End Services Icons -->
+
+                <div class="clearfix"></div>
+                @RenderBody();
+                </div>
+            </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <div class="row footer-widgets">
+
+                        <!-- Start Contact Widget -->
+                        <div class="col-md-3">
+                            <div class="footer-widget contact-widget">
+                                <h4>Contact info<span class="head-line"></span></h4>
+                                <ul>
+                                    <li><span>Email:</span> company@company.com</li>
+                                    <li><span>Website:</span> www.srjobservices.com/</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Contact Widget -->
+                        <!-- Start Flickr Widget -->
+                        <div class="col-md-3">
+                            <div class="footer-widget flickr-widget">
+                                <div class="footer-widget mail-subscribe-widget">
+                                    <a class="" href="index" style="width:100px"><img alt="" src="~/theme/images/logo.png" style="max-width:51% !important"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Flickr Widget -->
+                        <!-- Start Twitter Widget -->
+                        <div class="col-md-3">
+                            <div class="footer-widget mail-subscribe-widget">
+                                <h4>Get Jobs Notifications<span class="head-line"></span></h4>
+                                <p>Join our mailing list to stay up to date and get notices about our new Jobs era!</p>
+                                <div class="subscribe">
+                                    <input type="text" placeholder="mail@example.com">
+
+                                    <input type="submit" id="basicSuccessAnimation" style="padding:3px 16px !important;" class="main-button" value="Subscribe">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Twitter Widget -->
+                        <!-- Start Subscribe & Social Links Widget -->
+                        <div class="col-md-3">
+
+                            <div class="footer-widget social-widget">
+                                <h4>Follow Us<span class="head-line"></span></h4>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a class="facebook" href="#"><i style="color: white; background: #3B59A8;" class="icon-facebook-2"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="twitter" href="#"><i style="color: white; background: #4099FF;" class="icon-twitter-2"></i></a>
+                                    </li>
+                                    <li>
+                                        <a class="google" href="#"><i style="color: white; background: #dd4b39;" class="icon-gplus-1"></i></a>
+                                    </li>
+
+                                    <li>
+                                        <a class="linkdin" href="#"><i style="color: white; background: #0077B5;" class="icon-linkedin-1"></i></a>
+                                    </li>
+
+                                    <li>
+                                        <a class="instgram" href="#"><i style="color: white; background: #4E433C;" class="icon-instagramm"></i></a>
+                                    </li>
+
+                                    <li>
+                                        <a class="skype" href="#"><i style="color: white; background: #0099cc;" class="icon-skype-2"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <!-- End Subscribe & Social Links Widget -->
+                        <!-- Start Copyright -->
+                        <div class="copyright-section">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>© 2016 Sr Jobs Services -  All Rights Reserved</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="footer-nav">
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="@Url.Action("Contact","Home")">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!--Examples-->
+
+                        </div>
+                        <!-- End Copyright -->
+
+                    </div>
+                </div>
+            </footer>
+    <script src="~/theme/js/Lobibox.js"></script>
+    <script src="~/theme/js/demo.js"></script>
+    <link rel="stylesheet" href="~/theme/css/demo.css" />
+
+    <link rel="stylesheet" href="~/theme/css/Lobibox.min.css" />
+</body>
+</html>

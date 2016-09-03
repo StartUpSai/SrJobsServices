@@ -1,0 +1,309 @@
+a {
+    color: rgb(24, 124, 139);
+}
+
+.accent-color {
+	color: white !important;
+}
+
+.accent-color-bg {
+	background-color: rgb(24, 124, 139);
+}
+
+.top-bar a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.section-overlay {
+	background-color: rgb(24, 124, 139);
+}
+
+.top-bar.color-bar {
+	background-color: rgb(24, 124, 139);
+}
+
+.service-box .read-more {
+	color: rgb(24, 124, 139);
+}
+
+a.main-button, input[type="submit"] {
+	background-color: rgb(24, 124, 139);
+}
+
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li > a.active {
+	color: rgb(24, 124, 139);
+}
+
+.dropdown > li:hover > a, .sup-dropdown li:hover > a {
+	color: rgb(24, 124, 139);
+}
+
+.navbar-default .navbar-nav > li > a:after {
+	background-color: rgb(24, 124, 139);
+}
+
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li:hover > a {
+	border-color: rgb(24, 124, 139);
+}
+
+.dropdown  li a.active, .sup-dropdown li a.active {
+	color: rgb(24, 124, 139);
+}
+
+ul.breadcrumbs li a:hover {
+    color: rgb(24, 124, 139);
+}
+
+.full-width-recent-projects .portfolio-item:hover .portfolio-thumb .thumb-overlay {
+	background-color: rgb(24, 124, 139);
+}
+
+.tp-caption.color-bg {
+	background-color: rgb(24, 124, 139);
+}
+
+.team-member .member-socail a.mail:hover i {
+	background-color: rgb(24, 124, 139);
+}
+
+.post-share a.mail:hover {
+	background-color: rgb(24, 124, 139);
+}
+
+.progress .progress-bar.progress-bar-primary {
+	background-color: rgb(24, 124, 139);
+}
+
+.latest-posts-classic .left-meta-post .post-type i {
+	background-color: rgb(24, 124, 139);
+}
+
+.latest-posts-classic .post-title a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.latest-posts-classic .read-more {
+	color: rgb(24, 124, 139);
+}
+
+.panel-title a {
+	color: rgb(24, 124, 139);
+}
+
+.panel-title a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.milestone-block .milestone-icon {
+	background-color: rgb(24, 124, 139);
+}
+
+.milestone-block .milestone-icon:after {
+	background-color: rgb(24, 124, 139);
+}
+
+.milestone-block .milestone-number {
+	color: rgb(24, 124, 139);
+}
+
+.pricing-tables .pricing-table.highlight-plan .plan-name h3 {
+	color: rgb(24, 124, 139);
+}
+
+.btn-system {
+	background-color: rgb(24, 124, 139);
+}
+
+.btn-system.border-btn {
+	border-color: rgb(24, 124, 139);
+	color: rgb(24, 124, 139);
+}
+
+.btn-system.border-btn:hover {
+	background-color: rgb(24, 124, 139);
+}
+
+.btn-system.border-btn.btn-wite:hover {
+	color: rgb(24, 124, 139);
+}
+
+.btn-system.btn-wite{
+	color: rgb(24, 124, 139);
+}
+
+ul.icons-list li i {
+	color: rgb(24, 124, 139);
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+	background-color: rgb(24, 124, 139);
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.icon-small {
+	text-shadow: 0 0 0 rgb(24, 124, 139);
+}
+
+.icon-small:hover, .service-box:hover .icon-small {
+	color: rgb(24, 124, 139);
+}
+.icon-medium {
+	text-shadow: 0 0 0 rgb(24, 124, 139);
+}
+
+.icon-medium:hover, .service-box:hover .icon-medium {
+	color: rgb(24, 124, 139);
+}
+
+.icon-large {
+	text-shadow: 0 0 0 rgb(24, 124, 139);
+}
+
+.icon-large:hover, .service-box:hover .icon-large {
+	color: rgb(24, 124, 139);
+}
+
+.icon-effect-1 {
+	box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-o-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-moz-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+  	-webkit-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+}
+
+.icon-effect-1:after {
+	background-color: rgb(24, 124, 139);
+}
+
+.icon-effect-1:hover, .service-box:hover .icon-effect-1 {
+	color: rgb(24, 124, 139);
+}
+
+.icon-effect-2 {
+	color: rgb(24, 124, 139);
+	box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-o-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-moz-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+  	-webkit-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+}
+
+.icon-effect-2:after {
+	background-color: rgb(24, 124, 139);
+}
+
+.icon-effect-3 {
+	color: rgb(24, 124, 139);
+	box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-o-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-moz-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+  	-webkit-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+}
+
+.icon-effect-4 {
+	color: rgb(24, 124, 139);
+	box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-o-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-moz-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+  	-webkit-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+}
+
+.icon-effect-5 {
+	color: rgb(24, 124, 139);
+	box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-o-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-moz-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+  	-webkit-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+}
+
+.icon-effect-6 {
+	color: rgb(24, 124, 139);
+	box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-o-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+	-moz-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+  	-webkit-box-shadow: 0 0 0 3px rgb(24, 124, 139);
+}
+
+.team-member .member-photo .member-name span {
+	background-color: rgb(24, 124, 139);
+}
+
+.classic-title span {
+	border-bottom-color: rgb(24, 124, 139);
+}
+
+.portfolio-filter li a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.portfolio-filter li a.selected {
+	border-color: rgb(24, 124, 139);
+	background-color: rgb(24, 124, 139);
+}
+
+.portfolio-item:hover .portfolio-details h4 {
+	color: rgb(24, 124, 139);
+}
+
+.project-content h4 span {
+	border-bottom-color: rgb(24, 124, 139);
+}
+
+.recent-projects h4.title span {
+	border-bottom-color: rgb(24, 124, 139);
+}
+
+ul.post-meta li a:hover {
+	color: rgb(24, 124, 139);
+}
+
+#pagination span.current {
+	border-color: rgb(24, 124, 139);
+	background-color: rgb(24, 124, 139);
+}
+
+#pagination a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.post-tags-list a:hover {
+	background-color: rgb(24, 124, 139);
+}
+
+.post-share a.mail {
+	background-color: rgb(24, 124, 139);
+}
+
+.sidebar a:hover {
+	color: rgb(24, 124, 139);
+}
+
+.widget-search .search-btn {
+	background-color: rgb(24, 124, 139);
+}
+
+.sidebar .tagcloud a:hover {
+    background-color: rgb(24, 124, 139);
+}
+
+.back-to-top:hover i {
+    background-color: rgb(24, 124, 139);
+}
+
+.touch-slider .owl-controls.clickable .owl-buttons div:hover {
+	background-color: rgb(24, 124, 139);
+}
+
+.touch-carousel .owl-controls.clickable .owl-buttons div:hover {
+	background-color: rgb(24, 124, 139);
+}
+
+.testimonials-carousel .owl-controls.clickable .owl-buttons div {
+	background-color: rgb(24, 124, 139);
+}
+
+.testimonials-carousel .owl-controls.clickable .owl-buttons div:hover i {
+	color: rgb(24, 124, 139);
+}

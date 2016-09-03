@@ -1,0 +1,473 @@
+﻿@{
+    ViewBag.Title = "Contact";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <!-- Basic -->
+   
+
+    <!-- Define Charset -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Description and Author -->
+    <meta name="description" content="Vella - Responsive HTML5 Template">
+    <meta name="author" content="ZoOm Arts">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/theme/images/logo.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/theme/images/logo.png">
+    <link rel="stylesheet" href="~/theme/css/fontello.css">
+    <link rel="stylesheet" href="~/theme/css/animation.css">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="~/theme/css/bootstrap.css" type="text/css" media="screen">
+
+    <!-- Revolution Banner CSS -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/settings.css" media="screen" />
+
+    <!-- Vella CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/style.css" media="screen">
+
+    <!-- Responsive CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/responsive.css" media="screen">
+
+    <!-- Css3 Transitions Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/animate.css" media="screen">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places"></script>
+    <!-- Color CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/colors/blue.css" title="blue" media="screen" />
+
+    <!-- Fontello Icons CSS Styles  -->
+    <link rel="stylesheet" type="text/css" href="~/theme/css/fontello.css" media="screen">
+    <!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+
+    <script type="text/javascript" src="~/theme/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/carousels.js"></script>
+    <link rel="shortcut icon" href="https://designshack.net/favicon.ico">
+    <link rel="icon" href="https://designshack.net/favicon.ico">
+    <!-- Vella JS  -->
+    <script type="text/javascript" src="~/theme/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="~/theme/js/modernizrr.js"></script>
+    <script type="text/javascript" src="~/theme/js/bootstrap.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="~/theme/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/theme/js/count-to.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="~/theme/js/script.js"></script>
+   
+   
+   
+    <style>
+        .main-button {
+        padding:3px 16px !important;
+        }
+        .spinner {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    -webkit-animation: rotatee 2.0s infinite linear;
+    animation: zoom 2.0s infinite linear;
+}
+        #revslider-404 {
+            height: 400px !important;
+        }
+
+        .pricing-tables .pricing-table.highlight-pla n .plan-name {
+            padding: 9px 0;
+        }
+
+        .pricing-tables .pricing-table.highlight-plan .plan-signup {
+            padding: 9px 0;
+        }
+
+        .pricing-table .plan-list li {
+            padding: 8px;
+            font-size: 12px;
+            border-bottom: 1px solid #0099cc;
+        }
+
+        .pricing-tables .pricing-table {
+            border: 1px solid lightblue;
+        }
+
+        .pricing-tables {
+            padding: 25px 1px;
+        }
+
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+
+        .clearfix {
+            display: inline-block;
+        }
+
+        #clients {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+            #clients .clients-wrap {
+                display: block;
+                width: auto;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+
+                #clients .clients-wrap ul {
+                    display: block;
+                    list-style: none;
+                    position: relative;
+                }
+
+                    #clients .clients-wrap ul li {
+                        display: block;
+                        float: left;
+                        position: relative;
+                        width: 140px;
+                        height: 55px;
+                        line-height: 55px;
+                        text-align: center;
+                    }
+
+                        #clients .clients-wrap ul li img {
+                            vertical-align: middle;
+                            max-width: 100%;
+                            max-height: 100%;
+                            -webkit-transition: all 0.3s linear;
+                            -moz-transition: all 0.3s linear;
+                            transition: all 0.3s linear;
+                            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+                            filter: alpha(opacity=65);
+                            opacity: 0.65;
+                        }
+
+                            #clients .clients-wrap ul li img:hover {
+                                -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                                filter: alpha(opacity=100);
+                                opacity: 1.0;
+                            }
+
+        #testimonials {
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+            #testimonials h2 {
+                display: block;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+
+            #testimonials .carousel-wrap {
+                display: block;
+                width: 400px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+
+            #testimonials .carousel-nav {
+                display: block;
+                width: 300px;
+                margin: 0 auto;
+            }
+
+                #testimonials .carousel-nav img {
+                    cursor: pointer;
+                }
+
+                    #testimonials .carousel-nav img:active {
+                        position: relative;
+                        top: 1px;
+                    }
+
+                #testimonials .carousel-nav .nextbtn {
+                    float: right;
+                }
+
+            #testimonials .carousel-wrap ul {
+                display: block;
+                list-style: none;
+                position: relative;
+            }
+
+                #testimonials .carousel-wrap ul li {
+                    display: block;
+                    float: left;
+                    position: relative;
+                    width: 400px;
+                    margin-right: 15px;
+                }
+
+            #testimonials .carousel-wrap .context {
+                font-size: 2.0em;
+                line-height: 1.45em;
+                color: #797670;
+                font-style: italic;
+                margin-bottom: 6px;
+                padding-bottom: 4px;
+                border-bottom: 1px solid #dcdcdc;
+            }
+    </style>
+
+
+    <div id="container">
+
+       
+
+            <!-- Start Top Bar -->
+            
+            <!-- End Top Bar -->
+            <!-- Start Header ( Logo & Naviagtion ) -->
+            
+            <!-- End Header ( Logo & Naviagtion ) -->
+
+        
+        <!-- End Header -->
+        <div class="clearfix" style="display:block !important"></div>
+        <!-- Start Home Slider -->
+        
+        <!-- End Home Slider -->
+     
+       
+        <!-- Start Content -->
+        <div id="content" class="full-sections">
+
+            <div class="container">
+
+                <!-- Start Services Icons -->
+                <!-- End Services Icons -->
+                <!-- Divider -->
+
+
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="section">
+                            <div class="container">
+
+                                <div class="row">
+
+                                    <div class="col-md-8">
+
+                                        <!-- Classic Heading -->
+                                        <div id="map"></div>
+                                        <script>
+ 
+
+      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+      // Australia.
+                                            function initMap() {
+                                                var map = new google.maps.Map(document.getElementById('map'), {
+                                                    zoom: 20,
+                                                    center: { lat: 17.4899303, lng: 78.4087809 }
+                                                });
+
+                                                var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+                                                var beachMarker = new google.maps.Marker({
+                                                    position: { lat: 17.4899303, lng: 78.4087809 },
+                                                    map: map,
+                                                    icon: image
+                                                });
+                                            }
+                                        </script>           
+                                                                  
+                                        <script async defer
+                                                src="https://maps.googleapis.com/maps/api/js?v=3&callback=initMap">
+                                        </script>
+                                        
+                                        <!-- End Contact Form -->
+
+                                    </div>
+
+                                    <div class="col-md-4">
+
+                                        <!-- Classic Heading -->
+                                        <h4 class="classic-title"><span>Contact Us</span></h4>
+
+                                        <!-- Some Info -->
+
+                                        <div id="contact-form" class="contatct-form">
+                                            <div class="loader"></div>
+                                            <form>
+                                                <fieldset class="form-group">
+                                                    <label for="exampleInputPassword1" style="font-weight:bold;font-size:13px">Name</label>
+                                                    <input type="password" class="form-control" style="border:1px solid black" id="exampleInputPassword1" placeholder="Enter your name">
+                                                </fieldset>
+                                                <fieldset class="form-group">
+                                                    <label for="exampleInputEmail1" style="font-weight:bold;font-size:13px">Email address</label>
+                                                    <input type="email" class="form-control" style="border:1px solid black" id="exampleInputEmail1" placeholder="Enter your email">
+                                                    <small class="text-muted">We'll never share your email with anyone else.</small>
+                                                </fieldset>
+
+                                                <fieldset class="form-group">
+                                                    <label for="exampleInputEmail1" style="font-weight:bold;font-size:13px">Comments</label>
+                                                    <textarea class="form-control" style="resize:none;color:black;border:1px solid black" id="exampleTextarea" rows="3"></textarea>
+                                                </fieldset>
+
+                                                <button type="submit" class="btn btn-primary">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+               
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="section">
+                            <div class="container">
+
+                                <div class="row">
+                                    <h4 class="classic-title"><span>Information</span></h4>
+                                    <div class="col-md-7" style="margin-left:-15px">
+                                        <h3 style="color:#0099cc">Search Job According to your Qualification & Experinces</h3>
+
+                                        <!-- Divider -->
+                                        <div class="hr1" style="margin-bottom:10px;"></div>
+
+                                        <!-- Info - Icons List -->
+                                        <ul class="icons-list">
+                                            <li><i class="icon-location-1"></i> <strong>Address:</strong> Flat No. 302,4th Floor, Venkateshwara Plaza,Land Mark Vivekananda Nagar Statue,</li>
+                                            <li><i class="icon-mail-1"></i> <strong>Email:</strong> SrjobsServices@yourcompany.com</li>
+                                            <li><i class="icon-mobile-1"></i> <strong>Phone:</strong> 9391115330</li>
+                                        </ul>
+
+                                    </div>
+                                   
+                                    <div class="col-md-5" style="margin-left:-15px">
+                                        <div class="hr1" style="margin-bottom:15px;"></div>
+
+                                        <!-- Classic Heading -->
+                                        <h4 class="classic-title"><span>Working Hours</span></h4>
+
+                                        <!-- Info - List -->
+                                        <ul class="list-unstyled">
+                                            <li><i class="icon icon-time"></i> <strong>Monday - Friday</strong> - 9am to 5pm</li>
+                                            <li><i class="icon icon-time"></i> <strong>Saturday</strong> - 9am to 2pm</li>
+                                            <li><i class="icon icon-time"></i> <strong>Sunday</strong> - Closed</li>
+                                        </ul>
+                                    </div>
+                                    <!-- Some Info -->
+                                    
+                                    <!-- Divider -->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                    <!-- End Recent Projects -->
+                                    <div class="section" style="padding-top:8px; padding-bottom:10px;">
+                                        <div class="container">
+                                            <div id="clients">
+                                                <h3>Our Happy Clients</h3>
+                                                <div class="clients-wrap">
+                                                    <ul id="clients-list" class="clearfix">
+
+                                                        <li><img src="~/theme/images/Bharat Biotech.jpg" alt="Rough Draft Studios"></li>
+                                                        <li><img src="~/theme/images/HETERO_DRUGS_logo.png" alt="Rough Draft Studios"></li>
+                                                        <li><img src="~/theme/images/GM Electrical Systems.jpg" alt="SpongeBob Movie #2"></li>
+                                                        <li><img src="~/theme/images/Appidi Technologies.jpg" alt="Google chat talk"></li>
+                                                        <li><img src="~/theme/images/AISHWARYA TELECOM.jpg" alt="Google chat talk"></li>
+                                                        <li><img src="~/theme/images/mtar technologies.jpg" alt="Apple Computers"></li>
+                                                        <li><img src="~/theme/images/Vasantha tools.jpg" alt="Google chat talk"></li>
+
+
+
+                                                        <li><img src="~/theme/images/Rice tech.gif" alt="SpongeBob Movie #2"></li>
+                                                        <li><img src="~/theme/images/pitti laminations.jpg" alt="Apple Computers"></li>
+                                                        <li><img src="~/theme/images/servomax.jpg" alt="Google chat talk"></li>
+                                                        <li><img src="~/theme/images/more_supermarket.jpg" alt="G4TV channel"></li>
+
+                                                        <li><img src="~/theme/images/Ahlada Engineers.jpg" alt="Wonka Chocolates and Candy"></li>
+                                                        <li><img src="~/theme/images/Noble Energy Solar Technology.jpg" alt="G4TV channel"></li>
+                                                        <li><img src="~/theme/images/Amara Raja.gif" alt="Rough Draft Studios"></li>
+                                                        <li><img src="~/theme/images/lokesh machines.jpg" alt="Wonka Chocolates and Candy"></li>
+                                                        <li><img src="~/theme/images/Apollo Power Systems.jpg" alt="SpongeBob Movie #2"></li>
+                                                        <li><img src="~/theme/images/analogics tech.png" alt="Cartoon Network"></li>
+                                                        <li><img src="~/theme/images/Akshaya Solar Power.jpg" alt="Apple Computers"></li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Divider -->
+                                    <div class="hr1" style="margin-top:25px; margin-bottom:30px;"></div>
+
+                                    <!-- Start Clients Carousel -->
+
+                                </div>
+                                <!-- End Clients Carousel -->
+
+                            </div>
+                        </div>
+                       
+                    <!-- Go To Top Link -->
+                    <a href="#" class="back-to-top"><i class="icon-up-open-1"></i></a>
+                    <div id="loader">
+                        <div class="spinner">
+                            <img alt="" src="~/theme/images/logo.png">&nbsp;<span style="font-weight:bold;font-size:14px;color:#0099cc">Loading......</span>
+                        </div>
+                    </div>
+                    <script>jssor_1_slider_init();</script><!-- #endregion Jssor Slider End -->
+                    <script>
+                        $(window).scroll(function () {
+
+                            if ($(this).scrollTop() > 500) {
+                                $('#divlog').fadeIn();
+                                $('#basicSuccessWidth').hide();
+                            }
+                            else {
+                                $('#divlog').fadeOut();
+                                $('#basicSuccessWidth').show();
+                            }
+                        });
+
+                        $(window).load(function () { $("basicSuccessWidth").click(); })
+
+                    </script>
+                    <script src="~/theme/js/Lobibox.js"></script>
+                    <script src="~/theme/js/demo.js"></script>
+                    <link rel="stylesheet" href="~/theme/css/demo.css" />
+
+                    <link rel="stylesheet" href="~/theme/css/Lobibox.min.css" />
+
